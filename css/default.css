@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap&family=Lexend:wght@300&display=swap');
 
-*{
+* {
 	padding: 0;
-	margin:0;
+	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html,body{
+html,
+body {
 	height: 100%;
 	width: 100%;
 }
 
-.page1{
+.page1 {
 	position: relative;
 	min-height: 90vh;
 	width: 100%;
@@ -22,7 +23,7 @@ html,body{
 }
 
 
-.nav{
+.nav {
 	height: 100px;
 	width: 100%;
 	display: flex;
@@ -33,45 +34,42 @@ html,body{
 	padding-top: 4vh;
 	transition: transform 0.3s ease-in-out;
 	z-index: 9;
-	
+
 }
 
-.nav a{
+.nav a {
 	text-decoration: none;
 	color: #fff;
 }
 
-.hidden{
+.hidden {
 	transform: translateY(-120%);
 }
 
 
-.nav img{
+.nav img {
 	height: 90px;
 	width: 90px;
-	
+
 }
 
-.nav-1{
+.nav-1 {
 	color: white;
 	display: flex;
-	font-size: 10px ;
+	font-size: 10px;
 	gap: 30px;
 }
 
 /* page1 main  */
 
-.sec1{
+.sec1 {
 	height: calc(100vh - 100px);
 	width: 100%;
-	/* display: flex; */
-	/* align-items: center; */
-	/* background-color: black; */
 }
 
-.sec1 h1{
+.sec1 h1 {
 	color: white;
-	font-size: 10vw;
+	font-size: 190px;
 	font-family: sans-serif;
 	position: absolute;
 	padding-top: 26vh;
@@ -81,24 +79,22 @@ html,body{
 }
 
 
-.sec1 h3{
+.sec1 h3 {
 	color: rgb(197, 191, 191);
 	display: flex;
 	align-items: center;
 	position: absolute;
-	justify-content: space-between;
 	padding-top: 60vh;
 	padding-left: 5vw;
-	gap: 20px;
-	font-size: 2vw;
+	font-size: 40px;
 
 }
 
-.sec1 h3:nth-child(3){
+.sec1 h3:nth-child(3) {
 	padding-left: 15vw;
 }
 
-.sec1 h3:nth-child(4){
+.sec1 h3:nth-child(4) {
 	padding-left: 28vw;
 }
 
@@ -109,9 +105,9 @@ html,body{
 
 
 
-.page2{
+.page2 {
 	position: relative;
-	height: 100vh;
+	height: 85vh;
 	width: 100%;
 	background-color: black;
 
@@ -122,22 +118,21 @@ html,body{
 	width: 100%;
 	position: absolute;
 	top: 10%;
-	/* left: ; */
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	overflow: hidden;
-	
+
 }
 
-.sec2a img{ 
+.sec2a img {
 	position: absolute;
-	top: 6%;
-	height: 700px;
+	top: 120px;
 	width: 700px;
+	padding-left: 5vw;
 }
 
-.sec2a .black{
+.sec2a .black {
 	position: absolute;
 	top: 6%;
 	height: 700px;
@@ -145,22 +140,21 @@ html,body{
 	background-color: black;
 }
 
-.sec2b{
-	padding-left: 7vw;
+.sec2b {
 	position: absolute;
 	width: 45%;
 	left: 50%;
 }
 
-.sec2b h1{
+.sec2b h1 {
 	font-size: 55px;
 	color: white;
 	margin-bottom: 4vh;
-	
+
 
 }
 
-.sec2b p{
+.sec2b p {
 	font-size: 30px;
 	color: white;
 	width: 85%;
@@ -168,17 +162,7 @@ html,body{
 	margin-bottom: 8vh;
 }
 
-/*.sec2b button{
-	padding: 20px 50px;
-	border-radius: 30px;
-	border: none;
-	font-size: 30px;
-	cursor: pointer;
-	background-color: rgb(174, 170, 170);
-	color: white;
-}*/
-
-.sec2b button{
+.sec2b button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -192,7 +176,7 @@ html,body{
 	cursor: pointer;
 }
 
-.sec2b button:hover{
+.sec2b button:hover {
 	background-color: rgb(175, 175, 175);
 }
 
@@ -200,9 +184,7 @@ html,body{
 
 /* page 3 */
 
-
-
-.page3{
+.page3 {
 	position: relative;
 	height: 80vh;
 	width: 100%;
@@ -210,37 +192,37 @@ html,body{
 	overflow: hidden;
 }
 
-.sec3{
+.sec3 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	gap: 25vw;
 	height: 100%;
 	width: 100%;
-	
-	padding:  0 5vw ;
+
+	padding: 0 5vw;
 	position: relative;
-   
+
 }
 
 
 
-.sec3a h1{
+.sec3a h1 {
 	position: absolute;
 	font-size: 50px;
 	top: 10%;
 	color: white;
-	
+
 }
 
-.sec3a img{
+.sec3a img {
 	position: absolute;
 	height: 400px;
 	width: 600px;
 	top: 25vh;
 }
 
-.black1{
+.black1 {
 	height: 400px;
 	width: 600px;
 	position: absolute;
@@ -250,100 +232,61 @@ html,body{
 
 
 
-.sec3b{
-	
-	
+.sec3b {
+
+
 	margin-left: 6vw;
 	position: absolute;
 	left: 50vw;
 }
 
 
-.elem{
+.elem {
 	overflow: hidden;
 	width: 80%;
 }
-.elem:nth-child(1){
+
+.elem:nth-child(1) {
 	margin-bottom: 4vh;
 
 }
 
-.elem:nth-child(2){
+.elem:nth-child(2) {
 	margin-bottom: 4vh;
-	
+
 }
 
-.elem h1{
+.elem h1 {
 	position: relative;
-	
+
 	font-size: 50px;
 	color: white;
-	
+
 }
 
-.elem h1 span{
+.elem h1 span {
 	color: rgb(164, 158, 158);
 }
 
-.elem p{
+.elem p {
 	color: white;
 	font-style: 20px;
 }
-
-.sec3b .elem img{
-	position: absolute;
-	height: 300px;
-	width: 250px;
-	opacity: 0;
-}
-
-
-/* page 4 */
-
-
-.page4{
-	height: 30vh;
-	width: 100%;
-	background-color: white;
-	overflow: hidden;
-}
-
-.elem_page4{
-	height: 100%;
-	width: 100%;
-	
-}
-
-.elema-p4 h1{
-	font-size: 50px;
-	color: black;
-	text-align: center;
-	margin-top: 2vh;
-}
-
-.elema-p4 p{
-	font-size: 30px;
-	color: black;
-	text-align: center;
-	margin-top: 2vh;
-}
-
-
 
 
 /* page 5 */
 
 
-.page5{
-	height:300vh;
+.page5 {
+	height: 300vh;
 	width: 100%;
 	background-color: transparent;
 	position: relative;
-	
+
 
 }
 
-.elemb-p4{
+.elemb-p4 {
 	height: 100vh;
 	width: 100%;
 	position: relative;
@@ -352,7 +295,7 @@ html,body{
 }
 
 
-#top{
+#top {
 	position: absolute;
 	top: 0%;
 	width: 100%;
@@ -362,7 +305,7 @@ html,body{
 	overflow: hidden;
 }
 
-#center{
+#center {
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -373,7 +316,7 @@ html,body{
 	z-index: 9;
 }
 
-#bottom{
+#bottom {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -383,7 +326,7 @@ html,body{
 	z-index: 10;
 }
 
-.elemb-p4 h1{
+.elemb-p4 h1 {
 	font-family: sans-serif;
 	font-size: 13vw;
 	font-weight: 700;
@@ -393,17 +336,17 @@ html,body{
 	transform: translate(-50%, -50%);
 }
 
-#top-h1{
-	
+#top-h1 {
+
 
 	top: 99%;
 }
 
-#bottom-h1{
+#bottom-h1 {
 	top: -1% !important;
 }
 
-.content{
+.content {
 	margin-top: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -415,12 +358,12 @@ html,body{
 	gap: 4vh;
 }
 
-.content h4{
+.content h4 {
 	font-size: 1vw;
 	font-family: Founder;
 }
 
-.content h3{
+.content h3 {
 	width: 22%;
 	font-size: 3vw;
 	font-family: CardinalR;
@@ -428,25 +371,25 @@ html,body{
 	font-weight: 400;
 }
 
-.content .btn{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-		border-radius: 50px;
-		background-color: #fff;
-		color: #0d0d0d;
-		padding: 10px 20px;
-		border: none;
-		font-family: Poppins;
-		cursor: pointer;
-	}
-	
-	.content .btn:hover{
-		background-color: rgb(175, 175, 175);
-	}
+.content .btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 50px;
+	background-color: #fff;
+	color: #0d0d0d;
+	padding: 10px 20px;
+	border: none;
+	font-family: Poppins;
+	cursor: pointer;
+}
 
-.content h2{
+.content .btn:hover {
+	background-color: rgb(175, 175, 175);
+}
+
+.content h2 {
 	font-size: 20vw;
 	font-family: Founder;
 }
@@ -456,47 +399,44 @@ html,body{
 
 
 
-.page6{
+.page6 {
 	height: 100vh;
 	width: 100%;
 	background-color: pink;
 	position: relative;
 }
 
-.page6 img{
+.page6 img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
 }
 
-.page7{
+.page7 {
 	height: 100vh;
 	width: 100%;
 	background-color: rgb(35, 27, 28);
 	position: relative;
 }
 
-.page7 img{
+.page7 img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
 }
 
-.page8{
+.page8 {
 	height: 100vh;
 	width: 100%;
 	background-color: rgb(0, 0, 0);
 	position: relative;
 }
 
-.page8 img{
+.page8 img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
 }
-
-
-
